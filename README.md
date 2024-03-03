@@ -35,6 +35,8 @@ In this project, we'll create a FastAPI application that includes JWT-based auth
 
 1. Run the FastAPI application:
 
+	- By default FastAPI runs at 8000, you can change it to another port using --port flag followed by the port number
+    
     ```bash
     uvicorn main:app --reload
     ```
