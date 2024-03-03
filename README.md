@@ -19,14 +19,16 @@ In this project, we'll create a FastAPI application that includes JWT-based auth
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/your_project.git
-    cd your_project
+    git clone https://github.com/pygodzilla/SimpleFastAPI-JWT.git
+    cd SimpleFastAPI-JWT
     ```
 
 2. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    python3 -m venv .pyenv
+    source .pyenv/bin/activate
+    pip3 install -r requirements.txt
     ```
 
 ## Usage
@@ -39,9 +41,6 @@ In this project, we'll create a FastAPI application that includes JWT-based auth
 
 2. Access the API documentation at [http://localhost:8000/docs](http://localhost:8000/docs) to explore available endpoints and interact with them.
 
-## Configuration
-
-To configure the JWT authentication, modify the configuration file `config.py` according to your needs.
 
 ## Contributing
 
